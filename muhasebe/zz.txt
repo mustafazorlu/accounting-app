@@ -1,0 +1,35 @@
+<div class="input">
+                        <span>Ürün Seçin</span>
+                        <input list="musteriler" name="urun" required>
+                        <datalist id="musteriler" required>
+                            <?php foreach($verileri_cek_urun as $veri): ?>
+                                <option value="<?php echo $veri['urun_adi'] . '-ID:' . $veri['stok_id'] ?>"><?php echo $veri['urun_adedi'] ?> adet</option>
+                                
+                            <?php endforeach; ?>
+                        </datalist>
+                    </div>
+                    <div class="input">
+                        <span>Ürün Adedi</span>
+                        <input type="number" name="urun_sayisi" required>
+                    </div>
+
+
+
+
+
+
+
+
+<div class="input">
+                        <span>Hizmet :</span>
+                        <input type="text" name="hizmet_adi" required>
+                    </div>
+                    <div class="input">
+                        <span>Fiyat :</span>
+                        <input type="text" name="hizmet_fiyat" required>
+                    </div>
+
+
+
+
+

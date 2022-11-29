@@ -1,0 +1,59 @@
+.main{
+    padding-left:330px;
+    padding-right: 30px;
+    padding-top:90px;
+    
+    .info-boxes{
+        column-gap: 30px;
+        .box{
+            position: relative;
+            padding:1rem;
+            margin-bottom:$thi_px;
+            box-shadow: 0 5px $ten_px 0 rgba(0,0,0,0.1);
+            width: 20%;
+            border-radius: 0.25rem;
+            background-color: white;
+
+
+            &.battery-box{
+                width:auto !important ;
+                cursor: pointer;
+            }
+
+
+            
+            &.box1{
+                border-bottom:4px solid #3AC47D;
+            }
+            &.box2{
+                border-bottom:4px solid #3F6AD8;
+            }
+            &.box3{
+                border-bottom:4px solid #F7B924;
+            }
+            &.box4{
+                border-bottom:4px solid #D92550;
+            }
+            
+
+            .money{
+                .symbol{
+                    color:#B7BABD;
+                    font-size:25px;
+                    margin-right:5px;
+                    padding-left:16px;
+                    padding-top:16px;
+                }
+                .amount{
+                    font-size:32px;
+                    color:$dirty_black;
+                }
+            }
+            .money-info{
+                color: #B3B5B8;
+                font-size: 16px;
+            }
+        }
+    }
+    
+}

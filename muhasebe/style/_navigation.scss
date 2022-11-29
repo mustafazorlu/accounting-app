@@ -1,0 +1,49 @@
+.navigation{
+    padding:1.5rem;
+    position:fixed;
+    height:100vh;
+    box-shadow: 0 5px $ten_px 0 rgba(0,0,0,0.1);
+    z-index: 98;
+    background-color: white;
+    padding-top:80px;
+    
+    ul{
+        li{
+            margin-bottom:$ten_px;
+            a{
+                line-height: 2.4rem;
+                height: 2.4rem;
+                position: relative;
+                border-radius: 0.25rem;
+                color: lighten(#343a40,0%);
+                white-space: nowrap;
+                transition:all 0.2s;
+                margin: 0.1rem 0;
+                padding:0 $ten_px 0 $twe_px;
+                font-size:14px;
+                width: 250px;
+                font-weight: 500;
+                
+                &:hover{
+                    background-color: #E0F3FF;
+                }
+
+                i{
+                    width:28px;
+                    height: 34px;
+                    line-height: 34px;
+                    font-size: 1.1rem;
+                    color: lighten(#343a40,0%);
+                    opacity: 0.8;
+                    margin-right:$ten_px;
+                    margin-top:-2px;
+                    transition: all 0.2s;
+                }
+                    
+
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,107 @@
+.data-box{
+    width: 100%;
+    background-color: $white;
+    box-shadow: 0 5px $ten_px 0 rgba(0,0,0,0.1);
+    border-radius: 0.25rem;
+    margin-bottom:$thi_px;
+    
+    .data-box-title{
+        border-bottom: 1px solid rgba(26,54,126,.125);
+        i{
+            padding:1rem;
+            font-size:24px;
+            color:rgba(13, 27, 62, 0.7);
+            
+        }
+    }
+    .table{
+        padding:1rem;
+        table{
+            width: 100%;
+            border-spacing: 0;
+            td{
+                font-size: 14px;
+                padding:0.55rem;
+            }
+            thead{
+                tr{
+                    
+                    td{
+                        color:#495057;
+                        border: 1px solid #e9ecef;
+                        font-weight: 700;
+                        border-bottom: 2px solid #e9ecef;
+                        
+                    }
+                }
+            }
+            tbody{
+                tr{
+
+                    &:hover{
+                        background-color: #E0F3FF !important;
+                        cursor: pointer;
+                    }
+                    &:nth-child(odd){
+                        background-color: #F7F7F7;
+                    }
+                    &:nth-child(even){
+                        background-color:$white;
+                    }
+                    td{
+                        border: 1px solid #e9ecef;
+                        border-spacing: 0;
+                        color:#495057;
+                        .update{
+                                display:inline-block;
+                                padding:3px 8px;
+                                background-color:$blue;
+                                border-radius: 0.25rem;
+                                color:$white;
+                        }
+                        .delete{
+                                display:inline-block;
+                                padding:3px 8px;
+                                background-color:$red;
+                                border-radius: 0.25rem;
+                                color:$white;
+                        }
+                        .buy{
+                                display:inline-block;
+                                padding:3px 15px;
+                                background-color:$green;
+                                border-radius: 0.25rem;
+                                color:$white;
+                        }
+                        .detail{
+                                background-color: #EFB953;
+                                display:inline-block;
+                                padding:3px 15px;
+                                border-radius: 0.25rem;
+                                color:$white;
+                        }
+                        .borc{
+                                background-color:gray;
+                                display:inline-block;
+                                padding:3px 15px;
+                                border-radius: 0.25rem;
+                                color:$white;
+                        }
+                        .odeme{
+                            background-color: $green;
+                            display:inline-block;
+                            padding:3px 15px;
+                            border-radius: 0.25rem;
+                            color:$white;
+                    }
+
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+

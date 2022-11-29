@@ -1,0 +1,125 @@
+.detail-user{
+    .box{
+        .table{
+            table{
+                width: 100%;
+                border-spacing: 0;
+                td{
+                    font-size: 14px;
+                    padding:0.55rem;
+                }
+                thead{
+                    tr{
+                        
+                        td{
+                            color:#495057;
+                            border: 1px solid #e9ecef;
+                            font-weight: 700;
+                            border-bottom: 2px solid #e9ecef;
+                            
+                        }
+                    }
+                }
+                tbody{
+                    tr{
+    
+                        &:hover{
+                            background-color: #E0F3FF !important;
+                            cursor: pointer;
+                        }
+                        &:nth-child(odd){
+                            background-color: #F7F7F7;
+                        }
+                        &:nth-child(even){
+                            background-color:$white;
+                        }
+                        td{
+                            border: 1px solid #e9ecef;
+                            border-spacing: 0;
+                            color:#495057;
+                            .update{
+                                    display:inline-block;
+                                    padding:3px 8px;
+                                    background-color:$blue;
+                                    border-radius: 0.25rem;
+                                    color:$white;
+                            }
+                            .delete{
+                                    display:inline-block;
+                                    padding:3px 8px;
+                                    background-color:$red;
+                                    border-radius: 0.25rem;
+                                    color:$white;
+                            }
+                            .buy{
+                                    display:inline-block;
+                                    padding:3px 15px;
+                                    background-color:$green;
+                                    border-radius: 0.25rem;
+                                    color:$white;
+                            }
+                            .detail{
+                                    background-color: #EFB953;
+                                    display:inline-block;
+                                    padding:3px 15px;
+                                    border-radius: 0.25rem;
+                                    color:$white;
+                            }
+                            
+    
+                            
+                        }
+                        
+                    }
+                }
+            }
+        }
+        span{
+            display: inline-block;
+            width:100px;
+        }
+    }
+}
+
+.borc{
+    background-color:gray;
+    display:inline-block;
+    padding:3px 15px;
+    border-radius: 0.25rem;
+    color:$white;
+}
+.odeme{
+background-color: $green;
+display:inline-block;
+padding:3px 15px;
+border-radius: 0.25rem;
+color:$white;
+}
+
+.input{
+    input,select{
+        height: calc(1.8125rem + 2px);
+        padding: 0.25rem 0.5rem;
+        font-size: .875rem;
+        line-height: 1.5;
+        border-radius: 0.2rem;
+        border: 1px solid #ced4da;
+        transition: all 0.2s;
+        margin-left:3px;
+        
+        
+    }
+}
+
+.durum_kutusu{
+    position:absolute;
+    right:5px;
+    top:5px; 
+    font-size:13px;
+    font-weight: 500;
+    background-color:lighten($red, 20%);
+    color:white;
+    padding:5px;
+    border-radius: 5px;
+
+}
